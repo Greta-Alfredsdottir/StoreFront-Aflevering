@@ -13,6 +13,7 @@ export function renderProductCard (product){
     let thumbnail = document.createElement('img')
     let description = document.createElement('p')
     let card = document.createElement('div')
+    let buyButton =document.createElement('button')
 
     card.classList.add('card')
 
@@ -21,11 +22,13 @@ title.innerText = product.title
 price.innerText = product.price + 'Kr'
 thumbnail.src = product.thumbnail
 description.innerText = product.description
+buyButton.innerHTML = product.buyButton
 
 card.appendChild(title)
 card.appendChild(thumbnail)
 card.appendChild(description)
 card.appendChild(price)
+card.appendChild(buyButton) 
 
 let container = document.getElementById("mainContainer")
 
