@@ -1,1 +1,7 @@
 // Her lægger vi ind kode for udsyn
+
+@use "color";
+
+body{
+    background-color: color.$light;
+}

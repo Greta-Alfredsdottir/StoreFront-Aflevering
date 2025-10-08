@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sources":["../scss/_global.scss","../scss/_color.scss","main.css"],"names":[],"mappings":"AAIA;EACI,sBCHI;ACAR","file":"main.css"}
