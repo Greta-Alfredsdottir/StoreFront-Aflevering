@@ -6,13 +6,12 @@ body {
   border-radius: 2rem;
   border-color: black;
   text-align: center;
-  background-color: aqua;
 }
 
-img {
+#pic {
   width: 4rem;
   height: 4rem;
-  background-color: blueviolet;
+  background-color: rgb(199, 70, 130);
 }
 
 #mainContainer {
