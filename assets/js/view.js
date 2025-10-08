@@ -32,6 +32,10 @@ container.appendChild(card)
 
 // #region renderCategories(categories)
 // her viser vi categories
+export function renderCategoriesCard (categories){
+
+}
+
 
 // #endregion
 

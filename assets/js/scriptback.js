@@ -11,7 +11,7 @@ import {renderProductCard} from "./view.js";
     getProducts().then((data)=> data.products.forEach(element => {
         renderProductCard(element)
     })) // dette er til at kalde funktionen, så den kører engang
-    getCategories().then((data)=> data.forEach(element => {
+    getCategories().then((data)=> data.categories.forEach(element => {
         renderCategoriesCard(element)
     }))
     }
