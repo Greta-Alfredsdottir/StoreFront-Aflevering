@@ -5,11 +5,24 @@
 body{
     background-color: color.$light;
 }
+#mainHeader{
+    border-radius: 2rem;
+    border-color: black;
+    text-align: center;
+    background-color: color.$blue;
+}
+img{
+    width: 4rem;
+    height: 4rem;
+}
 #mainContainer{
     display: grid;
     padding: 2rem;
     margin: 2rem;
     
+}
+#mainFooter{
+    background-color: color.$green;
 }
 
 // Tablet og desktop

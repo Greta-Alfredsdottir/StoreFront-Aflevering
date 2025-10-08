@@ -2,10 +2,26 @@ body {
   background-color: pink;
 }
 
+#mainHeader {
+  border-radius: 2rem;
+  border-color: black;
+  text-align: center;
+  background-color: aqua;
+}
+
+img {
+  width: 4rem;
+  height: 4rem;
+}
+
 #mainContainer {
   display: grid;
   padding: 2rem;
   margin: 2rem;
+}
+
+#mainFooter {
+  background-color: green;
 }
 
 @media (min-width: 768px) {
