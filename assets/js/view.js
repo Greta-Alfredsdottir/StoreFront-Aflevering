@@ -20,7 +20,7 @@ export function renderProductCard (product){
 title.innerText = product.title
 price.innertext = product.title + 'Dkk'
 thumbnail.src = product.thumbnail
-description.innertext = product.description
+description.innerText = product.description
 
 card.appendChild(title)
 card.appendChild(thumbnail)
@@ -29,5 +29,5 @@ card.appendChild(price)
 
 let container = document.getElementById("mainContainer")
 
-container.appendChild("card")
+container.appendChild(card)
 }
