@@ -1,11 +1,6 @@
 // her har vi følgende render-funktions
 
-
-//    renderProductCard(product)
-//    renderProductDetails(product)
-//    renderCart(cartItems)
-//    renderCategories(categories)
-
+//  #region renderProductCard(product)
 export function renderProductCard (product){
     //price, description, thumbnail & title skal renderes
     let title =document.createElement('h3')
@@ -16,7 +11,6 @@ export function renderProductCard (product){
     let buyButton =document.createElement('button')
 
     card.classList.add('card')
-
 
 title.innerText = product.title
 price.innerText = product.price + 'Kr'
@@ -34,3 +28,19 @@ let container = document.getElementById("mainContainer")
 
 container.appendChild(card)
 }
+// #endregion
+
+// #region renderCategories(categories)
+// her viser vi categories
+
+// #endregion
+
+// #region renderProductDetails(product)
+
+// #endregion
+
+// #region renderCart(cartItems)
+
+// #endregion
+
+
