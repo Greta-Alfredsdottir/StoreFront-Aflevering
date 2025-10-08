@@ -18,7 +18,7 @@ export function renderProductCard (product){
 
 
 title.innerText = product.title
-price.innertext = product.title + 'Dkk'
+price.innerText = product.price + 'Kr'
 thumbnail.src = product.thumbnail
 description.innerText = product.description
 
