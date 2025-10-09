@@ -3,12 +3,12 @@
 //  #region renderProductCard(product)
 export function renderProductCard (product){
     //price, description, thumbnail & title skal renderes
-    let title =document.createElement('h3')
+    let title = document.createElement('h3')
     let price = document.createElement('p')
     let thumbnail = document.createElement('img')
     let description = document.createElement('p')
     let card = document.createElement('div')
-    let buyButton =document.createElement('button')
+    let buyButton = document.createElement('button')
 
     card.classList.add('card')
 

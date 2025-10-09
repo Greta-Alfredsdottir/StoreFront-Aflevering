@@ -26,6 +26,6 @@ body {
 
 @media (min-width: 768px) {
   #mainContainer {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -28,5 +28,5 @@ body{
 // Tablet og desktop
 @media (min-width: 768px){
     #mainContainer {
-        grid-template-columns: 3fr 1fr; // To kolonner på større skærme
+        grid-template-columns: 1fr 1fr 1fr; // 3 kolonner på større skærme
     }}
