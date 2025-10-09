@@ -16,7 +16,7 @@ title.innerText = product.title
 price.innerText = product.price + 'Kr'
 thumbnail.src = product.thumbnail
 description.innerText = product.description
-buyButton.innerHTML = product.buyButton
+buyButton.innerHTML = "Køb nu"
 
 card.appendChild(title)
 card.appendChild(thumbnail)
@@ -42,10 +42,21 @@ export function renderCategoriesCard (categories){
 
 // #region renderProductDetails(product)
 // export function renderProductDetails (product)
-//     let productDetails = document.createElement('h3')
-//     productDetails.innerText = product.details
-//     let container = document.getElementById("mainContainer")
+//    let productDetails = document.createElement('h3')
+//    productDetails.innerText = product.details
+//    let container = document.getElementById("mainContainer")
 // #endregion
+
+//#region renderAlProducts
+export function renderAlProducts (product){
+
+    let productSearch = document.createElement('h4')
+    productSearch.innerText = product.searchWord
+    let container = document.getElementById("searchBar")
+    container.appendChild(productSearch)
+}
+//#endregion
+
 
 // #region renderCart(cartItems)
 

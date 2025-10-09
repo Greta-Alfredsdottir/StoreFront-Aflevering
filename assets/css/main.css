@@ -1,6 +1,6 @@
 #mainNavigation {
+  display: flex;
   flex-direction: column;
-  background-color: aqua;
 }
 
 body {
@@ -32,8 +32,5 @@ body {
 @media (min-width: 768px) {
   #mainContainer {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  #mainNavigation {
-    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */
