@@ -1,6 +1,7 @@
 // Her lægger vi ind kode for udsyn
 
 @use "color";
+@use "nav";
 
 body{
     background-color: color.$light;
@@ -29,4 +30,7 @@ body{
 @media (min-width: 768px){
     #mainContainer {
         grid-template-columns: 1fr 1fr 1fr; // 3 kolonner på større skærme
-    }}
+    }
+#mainNavigation{
+    flex-direction: column;
+}}

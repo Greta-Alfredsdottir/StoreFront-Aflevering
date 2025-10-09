@@ -15,5 +15,11 @@ export async function getCategories() {
 //   getProductById(id)
 
 //   searchProducts(query)   
-
+export async function getSearch(query) {
+    let url = `https://dummyjson.com/products/search?q=${query}`
+    let res =await fetch(url)
+    let data = await res.json(); 
+        return data
+  
+}
 

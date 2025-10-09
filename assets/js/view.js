@@ -33,14 +33,18 @@ container.appendChild(card)
 // #region renderCategories(categories)
 // her viser vi categories
 export function renderCategoriesCard (categories){
-
+    let categorieTitle = document.createElement('h3')
+    categorieTitle.innerText = categories.name
+    let container = document.getElementById("mainNavigation")
+    container.appendChild(categorieTitle)
 }
-
-
 // #endregion
 
 // #region renderProductDetails(product)
-
+// export function renderProductDetails (product)
+//     let productDetails = document.createElement('h3')
+//     productDetails.innerText = product.details
+//     let container = document.getElementById("mainContainer")
 // #endregion
 
 // #region renderCart(cartItems)
