@@ -21,7 +21,7 @@ import {renderAlProducts} from "./view.js";
         console.log(searchData);
         let container =document.getElementById("mainContainer")
         container.innerHTML = ""
-               searchData.products.forEach(element =>{
+            searchData.products.forEach(element =>{
             renderProductCard(element)
         })
         })
