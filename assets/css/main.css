@@ -1,6 +1,16 @@
 #mainNavigation {
+  background-color: rgb(255, 105, 105);
+}
+
+#mainNavigation ul {
   display: flex;
   flex-direction: row;
+  font-size: 10px;
+}
+#mainNavigation ul li {
+  padding: 1rem;
+  margin: 1rem;
+  list-style: none;
 }
 
 body {

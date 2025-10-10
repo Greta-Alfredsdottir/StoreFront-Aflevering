@@ -27,11 +27,9 @@ import {renderAlProducts} from "./view.js";
         })
 
     // her laver vi categories
-    getCategories().then((data)=> data.forEach(element => {
-        
-        
-        renderCategoriesCard(element)
-    }))
+    getCategories().then((data)=> 
+    console.log(data))
+    
     }
     
 initapp()
