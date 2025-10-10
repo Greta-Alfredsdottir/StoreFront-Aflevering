@@ -1,16 +1,16 @@
 // her skal der laves navigation
 @use 'color';
 
-#mainNavigation{
+.mainNavigation{
     background-color: color.$red;
 }
 
-#mainNavigation ul{
+.mainNavigation ul {
     display: flex;
     flex-direction: row;
     font-size: 10px;
     
-    li{
+    a{
         padding: 1rem;
         margin: 1rem;
         list-style: none;
