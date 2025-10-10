@@ -33,4 +33,5 @@ import {renderRandomProducts} from "./view.js";
     }
 
 initapp()
+
 renderRandomProducts() // den skal være efter"innitapp" ellers virker den ikke
