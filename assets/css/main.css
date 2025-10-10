@@ -31,6 +31,11 @@ body {
 
 #mainContainer {
   display: grid;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card {
   border: 2px solid black;
   padding: 2rem;
   margin: 2rem;

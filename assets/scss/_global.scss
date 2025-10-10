@@ -11,6 +11,7 @@ body{
     border-color: black;
     text-align: center;
 }
+
 #pic{
     width: 4rem;
     height: 4rem;
@@ -18,11 +19,15 @@ body{
 }
 #mainContainer {
     display: grid;
+    padding: 1rem;
+    margin: 1rem;
+}
+.card{
     border: 2px solid black;
     padding: 2rem;
     margin: 2rem;
-    
 }
+
 #mainFooter{
     background-color: color.$red;
 }
