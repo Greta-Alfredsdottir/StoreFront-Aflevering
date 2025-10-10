@@ -48,11 +48,7 @@ export async function renderRandomProducts(){
     mainContainer.innerHTML = ''
     randomArray.forEach((item) => {
         renderProductCard(item)
-        
     });
-    
-
-    
 }
 // #endregion
 
