@@ -10,9 +10,9 @@ import {renderAlProducts} from "./view.js";
 import {renderRandomProducts} from "./view.js";
 
  function initapp(){
-    getProducts().then((data)=> data.products.forEach(element => {
-        renderProductCard(element)
-    })) // dette er til at kalde funktionen, så den kører engang
+     getProducts().then((data)=> data.products.forEach(element => {
+         renderProductCard(element)
+     })) // dette er til at kalde funktionen, så den kører engang
 
     // her laver vi search bar
     let searchBar = document.getElementById('searchBar')
@@ -31,6 +31,6 @@ import {renderRandomProducts} from "./view.js";
     console.log(data))
     
     }
-    renderRandomProducts()
-    
+
 initapp()
+renderRandomProducts() // den skal være efter"innitapp" ellers virker den ikke

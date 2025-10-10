@@ -42,8 +42,14 @@ export async function renderRandomProducts(){
 
     console.log(data.products[value1],data.products[value2],data.products[value3])
 
-    let randomArray = (data.products[value1],data.products[value2],data.products[value3])
+    let randomArray = [data.products[value1],data.products[value2],data.products[value3]]
     
+    let mainContainer = document.getElementById('mainContainer')
+    mainContainer.innerHTML = ''
+    randomArray.forEach((item) => {
+        renderProductCard(item)
+        
+    });
     
 
     
