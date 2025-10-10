@@ -24,16 +24,18 @@ body{
 }
 .card{
     border: 2px solid black;
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 #mainFooter{
+    display: flex;
+    flex-direction: row;
     background-color: color.$red;
 }
 
 // Tablet og desktop
-@media (min-width: 768px){
+@media (min-width: 650px){
     #mainContainer {
         grid-template-columns: 1fr 1fr 1fr; // 3 kolonner på større skærme
     }
