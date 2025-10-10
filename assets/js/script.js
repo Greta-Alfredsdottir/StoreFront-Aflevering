@@ -7,7 +7,7 @@ import {getCategories, getProducts} from "./api.js"; //husk at set .js på
 import {renderCategoriesCard} from "./view.js";  // const productData = await getProducts()
 import {renderProductCard} from "./view.js";
 import {renderAlProducts} from "./view.js";
-
+import {renderRandomProducts} from "./view.js";
 
  function initapp(){
     getProducts().then((data)=> data.products.forEach(element => {
@@ -31,5 +31,6 @@ import {renderAlProducts} from "./view.js";
     console.log(data))
     
     }
+    renderRandomProducts()
     
 initapp()

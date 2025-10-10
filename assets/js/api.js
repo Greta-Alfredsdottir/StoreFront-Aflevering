@@ -2,7 +2,7 @@
 
 //   getProducts()  
 export async function getProducts(){ 
-    return fetch('https://dummyjson.com/products?limit=3')
+    return fetch('https://dummyjson.com/products')
     .then(res => res.json()) //response = res
     } // alt ind i funktion, skal være i curlybrackets {}
 

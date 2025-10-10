@@ -1,5 +1,7 @@
 // her har vi følgende render-funktions
 
+import { getProducts } from "./api.js"
+
 //  #region renderProductCard(product)
 export function renderProductCard (product){
     //price, description, thumbnail & title skal renderes
@@ -27,6 +29,24 @@ card.appendChild(buyButton)
 let container = document.getElementById("mainContainer")
 
 container.appendChild(card)
+}
+export async function renderRandomProducts(){
+    // hent data
+    //vælg 3 tilfældige items fra data-arrayet
+    let data = await getProducts()
+    console.log(data)
+    
+    let value1 = Math.floor (Math.random() * 30)
+    let value2 = Math.floor (Math.random() * 30)
+    let value3 = Math.floor (Math.random() * 30)
+
+    console.log(data.products[value1],data.products[value2],data.products[value3])
+
+    let randomArray = (data.products[value1],data.products[value2],data.products[value3])
+    
+    
+
+    
 }
 // #endregion
 
